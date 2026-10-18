@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="الموقع الشخصي ليوسف الصوفي — تقنية المعلومات، الشبكات، تطوير الويب والذكاء الاصطناعي.">
+  <title>يوسف الصوفي | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Yousif Alsofi home"><span class="brand-mark">Y</span><span>Yousif<span class="accent">.</span></span></a>
+    <nav class="nav" id="nav">
+      <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+      <a href="#about" data-ar="نبذة عني" data-en="About">نبذة عني</a>
+      <a href="#skills" data-ar="المهارات" data-en="Skills">المهارات</a>
+      <a href="#projects" data-ar="المشاريع" data-en="Projects">المشاريع</a>
+      <a href="#contact" data-ar="تواصل معي" data-en="Contact">تواصل معي</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-btn" id="languageToggle" type="button" aria-label="Switch language">EN</button>
+      <button class="menu-btn" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span><span data-ar="طالب تقنية معلومات ومهتم بالتقنية" data-en="IT Student & Technology Enthusiast">طالب تقنية معلومات ومهتم بالتقنية</span></p>
+        <h1><span data-ar="مرحباً، أنا" data-en="Hello, I'm">مرحباً، أنا</span><br><span class="gradient-text">Yousif Alsofi</span></h1>
+        <h2 data-ar="أبني حلولاً رقمية وأتعلم كيف تعمل من الداخل." data-en="Building digital solutions and learning how they work under the hood.">أبني حلولاً رقمية وأتعلم كيف تعمل من الداخل.</h2>
+        <p class="hero-description" data-ar="مهتم بالشبكات والأمن السيبراني وتطوير الويب والذكاء الاصطناعي. أحب تحويل الأفكار إلى مشاريع عملية تجمع بين التصميم والتقنية." data-en="Interested in networking, cybersecurity, web development, and AI. I enjoy turning ideas into practical projects that bring design and technology together.">مهتم بالشبكات والأمن السيبراني وتطوير الويب والذكاء الاصطناعي. أحب تحويل الأفكار إلى مشاريع عملية تجمع بين التصميم والتقنية.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects" data-ar="استكشف مشاريعي ↙" data-en="Explore my work ↙">استكشف مشاريعي ↙</a>
+          <a class="btn btn-secondary" href="#contact" data-ar="تواصل معي" data-en="Get in touch">تواصل معي</a>
+        </div>
+        <div class="quick-facts">
+          <div><strong>01</strong><span data-ar="الشبكات والأنظمة" data-en="Networks & Systems">الشبكات والأنظمة</span></div>
+          <div><strong>02</strong><span data-ar="تطوير البرمجيات" data-en="Software Development">تطوير البرمجيات</span></div>
+          <div><strong>03</strong><span data-ar="الذكاء الاصطناعي" data-en="Artificial Intelligence">الذكاء الاصطناعي</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract technology illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="window-dots"><i></i><i></i><i></i><span>yousif.dev</span></div>
+          <div class="code-lines"><p><span class="code-purple">const</span> developer = {</p><p class="indent"><span class="code-blue">name</span>: <span class="code-green">'Yousif Alsofi'</span>,</p><p class="indent"><span class="code-blue">focus</span>: [</p><p class="indent2"><span class="code-green">'Networking'</span>,</p><p class="indent2"><span class="code-green">'Web Development'</span>,</p><p class="indent2"><span class="code-green">'AI & Data'</span></p><p class="indent">],</p><p class="indent"><span class="code-blue">mindset</span>: <span class="code-green">'Always learning'</span></p><p>};</p><p class="code-cursor">▌</p></div>
+        </div>
+        <div class="floating-chip chip-top">⌘ <span>Build</span></div>
+        <div class="floating-chip chip-bottom">✦ <span>Learn · Create · Improve</span></div>
+        <div class="glow glow-one"></div><div class="glow glow-two"></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><p class="section-kicker">01 / <span data-ar="نبذة" data-en="ABOUT">نبذة</span></p><h2 data-ar="فضولي بالتقنية، ومتحمس لصناعة شيء مفيد." data-en="Curious about technology. Excited to build useful things.">فضولي بالتقنية، ومتحمس لصناعة شيء مفيد.</h2></div>
+      <div class="about-grid"><p class="about-lead" data-ar="أنا يوسف الصوفي، طالب تقنية معلومات أعمل على تطوير مهاراتي من خلال التجربة والمشاريع العملية. أؤمن أن أفضل طريقة للتعلم هي بناء الأشياء، اختبارها، ثم تحسينها." data-en="I'm Yousif Alsofi, an Information Technology student growing my skills through hands-on practice and practical projects. I believe the best way to learn is to build things, test them, and keep improving.">أنا يوسف الصوفي، طالب تقنية معلومات أعمل على تطوير مهاراتي من خلال التجربة والمشاريع العملية. أؤمن أن أفضل طريقة للتعلم هي بناء الأشياء، اختبارها، ثم تحسينها.</p>
+        <div class="about-note"><span class="note-icon">✳</span><div><h3 data-ar="هدفي الحالي" data-en="CURRENT GOAL">هدفي الحالي</h3><p data-ar="تطوير خبرة عملية في الشبكات والأنظمة، مع بناء تطبيقات ويب وأدوات ذكية تحل مشكلات حقيقية." data-en="Build practical experience in networking and systems while creating web apps and smart tools that solve real problems.">تطوير خبرة عملية في الشبكات والأنظمة، مع بناء تطبيقات ويب وأدوات ذكية تحل مشكلات حقيقية.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading"><p class="section-kicker">02 / <span data-ar="المهارات" data-en="SKILLS">المهارات</span></p><h2 data-ar="مجالات أعمل على تطويرها" data-en="Areas I'm developing">مجالات أعمل على تطويرها</h2><p class="section-subtitle" data-ar="هذه المجالات تمثل اهتماماتي الحالية، وأواصل التعلم والتطبيق فيها." data-en="These are my current interests, and I'm continuously learning and practicing.">هذه المجالات تمثل اهتماماتي الحالية، وأواصل التعلم والتطبيق فيها.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3 data-ar="الشبكات والأنظمة" data-en="Networking & Systems">الشبكات والأنظمة</h3><p data-ar="أساسيات الشبكات، إعداد الأنظمة، Windows Server ومفاهيم DNS وDHCP." data-en="Networking fundamentals, system setup, Windows Server, DNS and DHCP concepts.">أساسيات الشبكات، إعداد الأنظمة، Windows Server ومفاهيم DNS وDHCP.</p><div class="tags"><span>Networking</span><span>Windows Server</span><span>Packet Tracer</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3 data-ar="تطوير الويب" data-en="Web Development">تطوير الويب</h3><p data-ar="بناء واجهات ويب متجاوبة والعمل على تطبيقات ومشاريع Full-stack." data-en="Building responsive interfaces and working on full-stack apps and projects.">بناء واجهات ويب متجاوبة والعمل على تطبيقات ومشاريع Full-stack.</p><div class="tags"><span>HTML / CSS / JS</span><span>Next.js</span><span>PostgreSQL</span></div></article>
+        <article class="skill-card"><div class="skill-icon">✳</div><h3 data-ar="الذكاء الاصطناعي والبيانات" data-en="AI & Data">الذكاء الاصطناعي والبيانات</h3><p data-ar="استكشاف تعلم الآلة وتنقيب البيانات وبناء نماذج تجريبية باستخدام Python." data-en="Exploring machine learning, data mining, and prototype models with Python.">استكشاف تعلم الآلة وتنقيب البيانات وبناء نماذج تجريبية باستخدام Python.</p><div class="tags"><span>Python</span><span>Scikit-learn</span><span>Streamlit</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3 data-ar="الأمن السيبراني" data-en="Cybersecurity">الأمن السيبراني</h3><p data-ar="التعلم العملي لمبادئ حماية الأنظمة والشبكات وأساسيات الأمن." data-en="Hands-on learning in system and network protection and security fundamentals.">التعلم العملي لمبادئ حماية الأنظمة والشبكات وأساسيات الأمن.</p><div class="tags"><span>Linux</span><span>Security Basics</span><span>Kali Linux</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading"><p class="section-kicker">03 / <span data-ar="المشاريع" data-en="PROJECTS">المشاريع</span></p><h2 data-ar="أفكار تتحول إلى تطبيقات" data-en="Ideas turned into projects">أفكار تتحول إلى تطبيقات</h2><p class="section-subtitle" data-ar="نماذج من المشاريع التي أعمل عليها أو طورتها للتعلم والتجربة." data-en="A few projects I've been building or exploring through hands-on learning.">نماذج من المشاريع التي أعمل عليها أو طورتها للتعلم والتجربة.</p></div>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-visual visual-portfolio"><span class="visual-label">01 / WEB APP</span><div class="mini-window"><div class="mini-bar"></div><div class="mini-layout"><div class="mini-sidebar"></div><div class="mini-content"><i></i><i></i><i></i><b></b></div></div></div></div><div class="project-info"><div class="project-meta"><span data-ar="تطوير ويب" data-en="Web Development">تطوير ويب</span><span>01</span></div><h3>SmartPortfolio AI</h3><p data-ar="منصة ملف شخصي قابلة للتخصيص مع لوحة إدارة لإدارة المحتوى والمشاريع والمهارات." data-en="A customizable portfolio platform with an admin dashboard for managing content, projects, and skills.">منصة ملف شخصي قابلة للتخصيص مع لوحة إدارة لإدارة المحتوى والمشاريع والمهارات.</p><div class="tags"><span>Next.js</span><span>Prisma</span><span>PostgreSQL</span></div><a class="text-link" href="https://github.com/ahmadali02213" target="_blank" rel="noreferrer"><span data-ar="عرض على GitHub" data-en="View on GitHub">عرض على GitHub</span> ↗</a></div></article>
+        <article class="project-card"><div class="project-visual visual-ai"><span class="visual-label">02 / MACHINE LEARNING</span><div class="ai-graphic"><div class="ai-node">AI</div><i class="node n1"></i><i class="node n2"></i><i class="node n3"></i><i class="node n4"></i><span class="ai-ring"></span></div></div><div class="project-info"><div class="project-meta"><span data-ar="ذكاء اصطناعي" data-en="Artificial Intelligence">ذكاء اصطناعي</span><span>02</span></div><h3>Fraud Detection AI</h3><p data-ar="مشروع تجريبي لتحليل البيانات واكتشاف الأنماط المشبوهة باستخدام خوارزميات تعلم الآلة." data-en="A prototype for analyzing data and identifying suspicious patterns with machine-learning algorithms.">مشروع تجريبي لتحليل البيانات واكتشاف الأنماط المشبوهة باستخدام خوارزميات تعلم الآلة.</p><div class="tags"><span>Python</span><span>Scikit-learn</span><span>Streamlit</span></div><a class="text-link" href="https://github.com/ahmadali02213" target="_blank" rel="noreferrer"><span data-ar="عرض على GitHub" data-en="View on GitHub">عرض على GitHub</span> ↗</a></div></article>
+        <article class="project-card"><div class="project-visual visual-bot"><span class="visual-label">03 / AUTOMATION</span><div class="bot-graphic"><div class="bot-head"><i></i><i></i></div><div class="bot-body"></div><span class="bot-spark">✦</span></div></div><div class="project-info"><div class="project-meta"><span data-ar="أتمتة وأدوات" data-en="Automation & Tools">أتمتة وأدوات</span><span>03</span></div><h3>Social Media Downloader</h3><p data-ar="بوت تيليجرام تجريبي لتنظيم طلبات تنزيل الوسائط من منصات متعددة باستخدام Python." data-en="A Telegram bot prototype that handles media-download requests from multiple platforms using Python.">بوت تيليجرام تجريبي لتنظيم طلبات تنزيل الوسائط من منصات متعددة باستخدام Python.</p><div class="tags"><span>Python</span><span>Telegram Bot</span><span>FFmpeg</span></div><a class="text-link" href="https://github.com/ahmadali02213" target="_blank" rel="noreferrer"><span data-ar="عرض على GitHub" data-en="View on GitHub">عرض على GitHub</span> ↗</a></div></article>
+      </div>
+      <p class="project-disclaimer" data-ar="ملاحظة: روابط المشاريع تشير حالياً إلى حساب GitHub؛ حدّثها بروابط المستودعات الفعلية عند توفرها." data-en="Note: project links currently point to the GitHub profile; replace them with individual repository links when available.">ملاحظة: روابط المشاريع تشير حالياً إلى حساب GitHub؛ حدّثها بروابط المستودعات الفعلية عند توفرها.</p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel"><div><p class="section-kicker">04 / <span data-ar="تواصل" data-en="CONTACT">تواصل</span></p><h2 data-ar="لديك فكرة أو فرصة؟<br>دعنا نتحدث." data-en="Have an idea or opportunity?<br>Let's talk.">لديك فكرة أو فرصة؟<br>دعنا نتحدث.</h2><p data-ar="يسعدني التواصل للتعاون أو تبادل الخبرات أو مناقشة المشاريع التقنية." data-en="I'm happy to connect about collaboration, sharing knowledge, or discussing tech projects.">يسعدني التواصل للتعاون أو تبادل الخبرات أو مناقشة المشاريع التقنية.</p></div><a class="btn btn-primary" href="https://github.com/ahmadali02213" target="_blank" rel="noreferrer"><span data-ar="تواصل عبر GitHub" data-en="Connect on GitHub">تواصل عبر GitHub</span> ↗</a></div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">Y</span><span>Yousif<span class="accent">.</span></span></a><p data-ar="صُنع بشغف للتقنية والتعلّم." data-en="Made with curiosity and a love for technology.">صُنع بشغف للتقنية والتعلّم.</p><span>© <span id="year"></span> Yousif Alsofi</span></footer>
+</body>
+</html>
